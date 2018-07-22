@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var lbName:UILabel?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +19,7 @@ class ViewController: UIViewController {
         //command+T
         var name :String = "Audao"
         let fullName = name + "chen"
-        
-        
+        lbName?.text = fullName
         print(fullName)
     }
 
