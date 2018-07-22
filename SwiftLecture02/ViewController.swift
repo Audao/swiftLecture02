@@ -50,6 +50,7 @@ class ViewController: UIViewController {
             
         })
         
+        _ = self.add(first: 1, second: 2)
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,6 +58,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func add(first:Int, second:Int) -> Int {
+        return first + second
+    }
 }
 
