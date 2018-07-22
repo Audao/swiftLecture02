@@ -32,13 +32,14 @@ class ViewController: UIViewController {
         }
         for str in english{
             print(str)
+        }
         //Dictionary
             let 啊 = [1:"A",2:"C",3:"B"]
             for(a,b) in 啊 {
                 print("\( a ):\( b )")
             }
             
-        }
+        
     }
 
     override func didReceiveMemoryWarning() {
