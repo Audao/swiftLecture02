@@ -97,6 +97,7 @@
 		AD9130D821032BF600B92783 /* SwiftLecture02 */ = {
 			isa = PBXGroup;
 			children = (
+				ADFAC66F21040DB1006D0A3D /* LoginFlow */,
 				AD9130D921032BF600B92783 /* AppDelegate.swift */,
 				AD9130DB21032BF600B92783 /* ViewController.swift */,
 				AD9130DD21032BF600B92783 /* Main.storyboard */,
@@ -123,6 +124,13 @@
 				AD9130FB21032BF800B92783 /* Info.plist */,
 			);
 			path = SwiftLecture02UITests;
+			sourceTree = "<group>";
+		};
+		ADFAC66F21040DB1006D0A3D /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
